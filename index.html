@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="png" >
+    <link rel="stylesheet" href="style.css" >
+    <title>interactive-card-details</title>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="cards">
+             <div class="front">
+                <img src="./images/card-logo.svg" alt="">
+                <h1 id="accountno">0000 0000 0000 0000</h1>
+                <div class="front_side">
+                    <h1>Jane Appleseed</h1>
+                    <span>00/00</span>
+                </div>
+             </div>
+               <div class="back">
+                  <span>000</span>
+               </div>
+            </div>
+            <div class="form">
+                <form action="#">
+                    <label for="name">CARDHOLDER NAME</label><br>
+                    <input type="text" placeholder="e.g. Jane Appleseed" id="name" required><br>
+                    <label for="number">CARD NUMBER</label><br> 
+                    <input type="number" placeholder="e.g. 1234 5678 9123 0000" id="number" required><br>
+                    <label for="dob">Exp. Date (MM/YY)</label> <label for="dobs"> CVC</label><br>
+                    <input type="number" id="dob" placeholder="MM" required> <input type="number" id="dob2" placeholder="YY" required> <input type="number" id="dobs" placeholder=" e.g. 123"> <br>
+                    <input type="submit" value="Confirm" name="name, number">
+
+                    <div class="footer">
+                        <p>&copy dOnT bE SuRpRiSeD...LOL</p>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>

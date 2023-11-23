@@ -97,7 +97,7 @@ label[for="name"]{
 #name{
     border: none;
     outline: none;
-    padding: 10px 100px 10px 10px;
+    padding: 10px 80px 10px 10px;
     border-radius: 5px; 
     display: inline-block;
     margin-bottom: 10px;
@@ -122,7 +122,7 @@ label[for="number"]:valid{
 #number{
     border: none;
     outline: none;
-    padding: 10px 100px 10px 10px;
+    padding: 10px 80px 10px 10px;
     border-radius: 5px;
     display: inline-block;
     margin-bottom: 10px;

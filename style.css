@@ -67,8 +67,24 @@ form{
     margin: 40px;
     padding: 50px;
     background-color:hsl(0, 0%, 100%);
-    display: inline-block;
-    
+    display: inline-block;  
+}
+/* commit to github css (added icons in forms) */
+input[type="text"]{
+   padding-left: 35px !important;
+   padding-top: 13px;
+   background-image: url(./images/people.svg);
+    background-repeat: no-repeat;
+   background-size: 18px;
+   background-position: 7px 7px;
+}
+#number{
+    padding-left: 35px !important;
+   padding-top: 13px;
+   background-image: url(./images/key-fill.svg);
+    background-repeat: no-repeat;
+   background-size: 18px;
+   background-position: 7px 7px;
 }
 label[for="name"]{
     font-size: 11px;

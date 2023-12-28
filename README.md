@@ -1,1 +1,1 @@
-Interactive card details form
+Responsive Interactive card details form
